@@ -1,0 +1,1 @@
+mpic++ -fdiagnostics-color=always -g -I/usr/lib/petscdir/petsc3.12/x86_64-linux-gnu-real/include -I/usr/lib/x86_64-linux-gnu/openmpi/include *.cpp -llapacke -lumfpack -lpetsc -o /home/matej/NMI1/main

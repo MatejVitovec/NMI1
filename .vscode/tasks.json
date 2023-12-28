@@ -8,10 +8,14 @@
 			"args": [
 				"-fdiagnostics-color=always",
 				"-g",
+				"-I/usr/lib/petscdir/petsc3.12/x86_64-linux-gnu-real/include",
+				"-I/usr/lib/x86_64-linux-gnu/openmpi/include",
 				//"-O2",
 				//"-fopenmp",
 				"*.cpp",
 				"-llapacke",
+				"-lumfpack",
+				"-lpetsc",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
 			],

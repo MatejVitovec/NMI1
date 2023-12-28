@@ -54,18 +54,10 @@ class Matrix
             return m_*n_;
         }
 
-        /*void operator- (const Matrix& m);
-        void operator==(const Matrix& m);
-        void operator+=(const Matrix& m);
-        void operator-=(const Matrix& m);*/
-
     protected:
         int m_;
         int n_;
         std::vector<double> data_;
 };
-
-std::vector<std::complex<double>> eig(Matrix m);
-std::vector<double> solve(Matrix A, std::vector<double> b);
 
 #endif // Matrix_HPP
